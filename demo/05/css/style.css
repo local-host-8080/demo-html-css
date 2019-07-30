@@ -1,0 +1,308 @@
+/*-------------------------------------------普通按钮用到的CSS样式------------------------------------------------------------*/
+.chooseBtn {
+	display: none;
+}
+
+.choose-label {
+	box-shadow: #ccc 0px 0px 0px 1px;
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	position: relative;
+	background-color: #bdbdbd;
+	overflow: hidden;
+}
+
+.choose-label:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: #fff;
+	z-index: 20;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.chooseBtn:checked + label.choose-label:before {
+	left: 20px;
+}
+
+.chooseBtn:checked + label.choose-label {
+	background-color: #51ccee;
+}
+/*-------------------------------------------6款不同按钮用到的CSS样式------------------------------------------------------------*/
+.row {
+	width: 100%;
+	display: block;
+	line-height: 60px;
+	text-align: center;
+}
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label {
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	position: relative;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	margin: 0px 20px;
+	box-sizing: border-box;
+}
+input[type="checkbox"] + label:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 20px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	cursor: pointer;
+}
+#simple_1:checked + label.red,
+#simple_2:checked + label.red,
+#simple_3:checked + label.red {
+	background: #ECA9A7;
+}
+#simple_1:checked + label.red:after,
+#simple_2:checked + label.red:after,
+#simple_3:checked + label.red:after {
+	background: #D9534F;
+}
+#simple_1:checked + label.green,
+#simple_2:checked + label.green,
+#simple_3:checked + label.green {
+	background: #AEDCAE;
+}
+#simple_1:checked + label.green:after,
+#simple_2:checked + label.green:after,
+#simple_3:checked + label.green:after {
+	background: #5CB85C;
+}
+#simple_1:checked + label:after,
+#simple_2:checked + label:after,
+#simple_3:checked + label:after {
+	left: calc(100% - 20px);
+}
+#simple_1 + label,
+#simple_2 + label,
+#simple_3 + label {
+	background: #ddd;
+	border-radius: 20px;
+	box-shadow: 1px 1px 3px #aaa;
+}
+#simple_1 + label:after,
+#simple_2 + label:after,
+#simple_3 + label:after {
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px #aaa;
+}
+#md_1:checked + label.red,
+#md_2:checked + label.red,
+#md_3:checked + label.red {
+	background: #ECA9A7;
+}
+#md_1:checked + label.red:after,
+#md_2:checked + label.red:after,
+#md_3:checked + label.red:after {
+	background: #D9534F;
+}
+#md_1:checked + label.green,
+#md_2:checked + label.green,
+#md_3:checked + label.green {
+	background: #AEDCAE;
+}
+#md_1:checked + label.green:after,
+#md_2:checked + label.green:after,
+#md_3:checked + label.green:after {
+	background: #5CB85C;
+}
+#md_1:checked + label:after,
+#md_2:checked + label:after,
+#md_3:checked + label:after {
+	left: calc(100% - 20px);
+}
+#md_1 + label,
+#md_2 + label,
+#md_3 + label {
+	background: #ddd;
+	border-radius: 20px;
+	height: 10px;
+}
+#md_1 + label:after,
+#md_2 + label:after,
+#md_3 + label:after {
+	background: #fff;
+	border-radius: 50%;
+	top: -5px;
+	box-shadow: 0px 0px 3px #aaa;
+}
+#mds_1:checked + label.red,
+#mds_2:checked + label.red,
+#mds_3:checked + label.red {
+	background: #ECA9A7;
+}
+#mds_1:checked + label.red:after,
+#mds_2:checked + label.red:after,
+#mds_3:checked + label.red:after {
+	background: #D9534F;
+}
+#mds_1:checked + label.green,
+#mds_2:checked + label.green,
+#mds_3:checked + label.green {
+	background: #AEDCAE;
+}
+#mds_1:checked + label.green:after,
+#mds_2:checked + label.green:after,
+#mds_3:checked + label.green:after {
+	background: #5CB85C;
+}
+#mds_1:checked + label:after,
+#mds_2:checked + label:after,
+#mds_3:checked + label:after {
+	left: calc(100% - 20px);
+}
+#mds_1 + label,
+#mds_2 + label,
+#mds_3 + label {
+	background: #ddd;
+	height: 3px;
+}
+#mds_1 + label:after,
+#mds_2 + label:after,
+#mds_3 + label:after {
+	background: #fff;
+	border-radius: 50%;
+	top: -9px;
+	box-shadow: 0px 0px 3px #aaa;
+}
+#border_1:checked + label.red,
+#border_2:checked + label.red,
+#border_3:checked + label.red {
+	border-color: #ECA9A7;
+}
+#border_1:checked + label.red:after,
+#border_2:checked + label.red:after,
+#border_3:checked + label.red:after {
+	background: #D9534F;
+}
+#border_1:checked + label.green,
+#border_2:checked + label.green,
+#border_3:checked + label.green {
+	border-color: #AEDCAE;
+}
+#border_1:checked + label.green:after,
+#border_2:checked + label.green:after,
+#border_3:checked + label.green:after {
+	background: #5CB85C;
+}
+#border_1:checked + label:after,
+#border_2:checked + label:after,
+#border_3:checked + label:after {
+	left: calc(100% - 14px);
+}
+#border_1 + label,
+#border_2 + label,
+#border_3 + label {
+	border: 2px solid #ddd;
+	border-radius: 20px;
+}
+#border_1 + label:after,
+#border_2 + label:after,
+#border_3 + label:after {
+	background: #ddd;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	top: 2px;
+	left: 2px;
+}
+#inset_1:checked + label.red,
+#inset_2:checked + label.red,
+#inset_3:checked + label.red {
+	background: #ECA9A7;
+}
+#inset_1:checked + label.red:after,
+#inset_2:checked + label.red:after,
+#inset_3:checked + label.red:after {
+	background: #D9534F;
+}
+#inset_1:checked + label.green,
+#inset_2:checked + label.green,
+#inset_3:checked + label.green {
+	background: #AEDCAE;
+}
+#inset_1:checked + label.green:after,
+#inset_2:checked + label.green:after,
+#inset_3:checked + label.green:after {
+	background: #5CB85C;
+}
+#inset_1:checked + label:after,
+#inset_2:checked + label:after,
+#inset_3:checked + label:after {
+	left: calc(100% - 18px);
+}
+#inset_1 + label,
+#inset_2 + label,
+#inset_3 + label {
+	background: #ddd;
+	border-radius: 20px;
+}
+#inset_1 + label:after,
+#inset_2 + label:after,
+#inset_3 + label:after {
+	background: #fff;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	top: 2px;
+	left: 2px;
+}
+#box_1:checked + label.red,
+#box_2:checked + label.red,
+#box_3:checked + label.red {
+	background: #ECA9A7;
+}
+#box_1:checked + label.red:after,
+#box_2:checked + label.red:after,
+#box_3:checked + label.red:after {
+	background: #D9534F;
+}
+#box_1:checked + label.green,
+#box_2:checked + label.green,
+#box_3:checked + label.green {
+	background: #AEDCAE;
+}
+#box_1:checked + label.green:after,
+#box_2:checked + label.green:after,
+#box_3:checked + label.green:after {
+	background: #5CB85C;
+}
+#box_1:checked + label:after,
+#box_2:checked + label:after,
+#box_3:checked + label:after {
+	left: calc(100% - 18px);
+}
+#box_1 + label,
+#box_2 + label,
+#box_3 + label {
+	background: #ddd;
+}
+#box_1 + label:after,
+#box_2 + label:after,
+#box_3 + label:after {
+	background: #fff;
+	width: 16px;
+	height: 16px;
+	top: 2px;
+	left: 2px;
+}

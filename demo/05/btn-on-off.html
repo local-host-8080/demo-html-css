@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>纯css编写开关按钮</title>
+    <style type="text/css">
+        <!--#toggle-button{ display: none; }-->
+        .button-label{
+            position: relative;
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            background-color: #ccc;
+            box-shadow: #ccc 0px 0px 0px 2px;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        .circle{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+        .button-label .text {
+            line-height: 30px;
+            font-size: 18px;
+            text-shadow: 0 0 2px #ddd;
+        }
+
+        .on { color: #fff; display: none; text-indent: 10px;}
+        .off { color: #fff; display: inline-block; text-indent: 34px;}
+        .button-label .circle{
+            left: 0;
+            transition: all 0.3s;
+        }
+        #toggle-button:checked + label.button-label .circle{
+            left: 50px;
+        }
+        #toggle-button:checked + label.button-label .on{ display: inline-block; }
+        #toggle-button:checked + label.button-label .off{ display: none; }
+        #toggle-button:checked + label.button-label{
+            background-color: #51ccee;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="toggle-button-wrapper">
+    <input type="checkbox" id="toggle-button" name="switch">
+    <label for="toggle-button" class="button-label">
+        <span class="circle"></span>
+        <span class="text on">ON</span>
+        <span class="text off">OFF</span>
+    </label>
+</div>
+
+</body>
+</html>
