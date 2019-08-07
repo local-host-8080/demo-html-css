@@ -1,0 +1,10 @@
+body{
+		margin: 0;
+		padding: 0;
+}
+#clock{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
