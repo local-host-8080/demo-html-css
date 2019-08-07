@@ -66,3 +66,32 @@ body{
 .swiper-slide:nth-child(5) .sliderText{
 	background: #c33ada;
 }
+.swiper-slide:nth-child(6) .sliderText{
+	background: #2196f3;
+}
+.swiper-slide:nth-child(7) .sliderText{
+	background: #e91e63;
+}
+.swiper-slide:nth-child(8) .sliderText{
+	background: #c3d41a;
+}
+.swiper-slide:nth-child(9) .sliderText{
+	background: #ff9800;
+}
+.swiper-slide:nth-child(10) .sliderText{
+	background: #c33ada;
+}.swiper-slide:nth-child(11) .sliderText{
+	background: #2196f3;
+}
+.swiper-slide:nth-child(12) .sliderText{
+	background: #e91e63;
+}
+.swiper-slide:nth-child(13) .sliderText{
+	background: #c3d41a;
+}
+.swiper-slide:nth-child(14) .sliderText{
+	background: #ff9800;
+}
+.swiper-slide:nth-child(15) .sliderText{
+	background: #c33ada;
+}
