@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+section{
+	background-image: url(../img/wallpaper4k.jpg);
+	background-size: cover;
+	height: 100vh;
+}

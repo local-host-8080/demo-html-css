@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	overflow: hidden;
+}
+canvas{
+	background-color: white;
+}
+#instructions{
+	position: absolute;
+	color: #000;
+	bottom: 0;
+	padding-bottom: 6px;
+	font-family: sans-serif;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}
