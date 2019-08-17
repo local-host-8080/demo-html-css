@@ -5,12 +5,14 @@ body, div, h1, h2, form, fieldset, input, textarea, footer, p{
 	outline: none;
 }
 body{
-	background: white;
-	color: black;
+	background: #F5F5F5;
+	color: gray;
 	font-family: tahoma;
 }
 p{
+	font-family: tahoma;
 	font-size: 24px;
+	color: #757575;
 }
 #wrap{
 	width: 530px;
@@ -22,7 +24,7 @@ h1{
 	text-align: center;
 	font-size: 35px;
 	font-family: tahoma;
-	color: white;
+	color: black;
 }
 #form-wrap{
 	overflow: hidden;
@@ -87,7 +89,7 @@ input[type=text], textarea{
 	height: 37px;
 	padding: 0px 10px;
 	margin: 0 0 10px 0;
-	border: 1px solid #f8f5f1;
+	border: 1px solid #BDBDBD;
 	border-radius: 5px;
 }
 textarea{
@@ -96,7 +98,7 @@ textarea{
 }
 textarea:focus,
 input[type=text]:focus{
-	background: white;
+	background: url('../img/letter_bg.png');
 }
 #form-wrap input[type=submit]{
 	position: relative;
