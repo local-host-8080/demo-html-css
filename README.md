@@ -15,22 +15,22 @@
 	</a>
 </p>
 
-### 简介：
+## 简介：
 * 模板收集自**互联网平台**，包括但不限于 *Youtube*、*bilibili* 等。
 
-### 预览
-* [点击这里快速预览**所有模板**](https://local-host-8080.github.io/demo-html-css/index.html)
+## 预览
+* [点击这里快速预览 **所有模板**](https://local-host-8080.github.io/demo-html-css/index.html)
 
-### 下载
+## 下载
 * 需要源码的可以在 **`src`** 目录下自行下载源码压缩包。
 * 你也可以 **`Clone or download`** 整个项目到本地运行查看。
 
-### 想一起打卡学习？
+## 想一起打卡学习？
 > 点击下方的传送门一起学习吧~
 * [x] [【网页设计】基础控件](https://space.bilibili.com/32683063/channel/detail?cid=81226)
 * [x] [【网页设计】炫酷特效](https://space.bilibili.com/32683063/channel/detail?cid=84356)
 
-### 关于我
+## 联系我
 > 快来关注我吧~
 * [**我的主页**](https://space.bilibili.com/32683063)
 
