@@ -19,6 +19,9 @@ body{
 	padding: 30px;
 	box-sizing: border-box;
 }
+.card .content p{
+	margin: 5px;
+}
 .card .demo-img{
 	width: 400px;
 	box-sizing: border-box;
@@ -38,7 +41,7 @@ body{
 .card .sliderText{
 	position: relative;
 	width: 100%;
-	height: 200px;
+	height: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
