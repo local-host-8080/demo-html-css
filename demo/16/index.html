@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>16-Show</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="client"  >
+        <div class="container-fluid testimonial-container">
+            <div class="row">
+            
+                <div class="col-md-12">
+                    <div class="main-title wow fadeIn" data-wow-delay="300ms">
+                       <br><br>
+                        <h1 class="text-center"> NICE TESTIMONIALS </h1>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row m-0">
+                <div class="col-sm-12 align-items-center">
+                    <div class="owl-testimonial owl-carousel owl-theme">
+                        <div class="testimonial-item  text-center">
+                            <div class="testimonial-box">
+                                <div class="testimonial-text">
+                                    <p>Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna. porta. dignissim mi ac, varius magna. </p>
+                                    <span class="testimonial-date">December 20, 2018</span>
+                                    <span class="testimonial-arrow position-absolute"></span>
+                                </div>
+                            </div>
+                            <div class="testimonial-photo"><img alt="" src="img/team-1.jpg"></div>
+                            <h5 class="text-capitalize color-black mt-3 mb-1">Robin T Philips</h5>
+                            <p class="color-pink">Businessman</p>
+                        </div>
+                        <div class="testimonial-item item text-center">
+                            <div class="testimonial-text position-relative mb-4">
+                                <p>Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna. porta. dignissim mi ac, varius magna. </p>
+                                <span class="testimonial-date">October 13, 2018</span>
+                                <span class="testimonial-arrow position-absolute"></span>
+                            </div>
+                            <div class="testimonial-photo"><img alt="" src="img/team-2.jpg"></div>
+                            <h5 class="text-capitalize color-black mt-3 mb-1">Jessica Oliver</h5>
+                            <p class="color-pink">Model</p>
+                        </div>
+                        <div class="testimonial-item item text-center">
+                            <div class="testimonial-text position-relative mb-4">
+                                <p>Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna. porta. dignissim mi ac, varius magna. </p>
+                                <span class="testimonial-date">April 23, 2018</span>
+                                <span class="testimonial-arrow position-absolute"></span>
+                            </div>
+                            <div class="testimonial-photo"><img alt="" src="img/team-4.jpg"></div>
+                            <h5 class="text-capitalize color-black mt-3 mb-1">Teena Williamson</h5>
+                            <p class="color-pink">SEO Specialist</p>
+                        </div>
+                        <div class="testimonial-item  item text-center">
+                            <div class="testimonial-text position-relative mb-4">
+                                <p>Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna. porta. dignissim mi ac, varius magna. </p>
+                                <span class="testimonial-date">June 04, 2018</span>
+                                <span class="testimonial-arrow position-absolute"></span>
+                            </div>
+                            <div class="testimonial-photo"><img alt="" src="img/team-3.jpg"></div>
+                            <h5 class="text-capitalize color-black mt-3 mb-1">Micheal Anderson</h5>
+                            <p class="color-pink">The New Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+    
+    <script>
+    $(function(){
+   
+     if ($("body").hasClass("rtl-layout")) {
+        $(".owl-team").owlCarousel({
+            items: 3,
+            margin: 30,
+            dots: true,
+            nav: true,
+            loop: true,
+            autoplay: true,
+            smartSpeed: 1000,
+            navSpeed: true,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            rtl: callback,
+            responsive: {
+                992: {
+                    items: 4,
+                },
+                600: {
+                    items: 2,
+                },
+                320: {
+                    items: 1,
+                },
+            }
+        });
+        $(".owl-testimonial").owlCarousel({
+            autoplay: 1000,
+            smartSpeed: 1500,
+            margin: 30,
+            slideBy: 1,
+            autoplayHoverPause: true,
+            loop: true,
+            dots: true,
+            nav: true,
+            rtl: callback,
+            responsive: {
+                1200: {
+                    items: 4
+                },
+                992: {
+                    items: 3
+                },
+                600: {
+                    items: 2
+                },
+                320: {
+                    items: 1
+                },
+            }
+        });
+    }
+
+    /* Testimonial One */
+    $(".owl-testimonial").owlCarousel({
+        autoplay: 1000,
+        smartSpeed: 1500,
+        margin: 30,
+        slideBy: 1,
+        autoplayHoverPause: true,
+        loop: true,
+        dots: true,
+        nav: true,
+        responsive: {
+            1200: {
+                items: 4
+            },
+            992: {
+                items: 3
+            },
+            600: {
+                items: 2
+            },
+            320: {
+                items: 1
+            },
+        }
+    });
+    });
+    </script>
+</body>
+</html>

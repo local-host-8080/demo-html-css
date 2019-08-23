@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #ebebeb;
+    overflow: hidden;
+}
+    
+.testimonial-arrow {
+    z-index: 1;
+    bottom: -14px;
+    left: 45%;
+    width: 10px;
+    height:0;
+    border-top: 15px solid #ffffff;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+}
+.testimonial-text {
+    background: #ffffff;
+    padding: 3rem 1.4rem;
+    border-radius: 10px;
+}
+.testimonial-text p {
+    padding-bottom: 1.8rem;
+    line-height: 24px;
+}
+.testimonial-date {
+    font-size: 14px;
+    color: #acacac;
+}
+.testimonial-photo {
+    height: 89px;
+    width: 89px;
+    margin: 10px auto 0 auto;
+}
+.testimonial-photo > img {
+    -webkit-border-radius: 50%; border-radius: 50%;
+}
+.testimonial-item h5 {
+    font-size: 18px;
+}
+.testimonial-item p{
+    font-size: 14px;
+}
+.testimonial-item {
+    cursor: pointer;
+}
+.testimonial-text:hover {
+    background: #fb5279;
+}
+.testimonial-text:hover p {
+    color: #ffffff;
+}
+.testimonial-text:hover .testimonial-date {
+    color: #fff;
+}
+.testimonial-text:hover .testimonial-arrow {
+    border-top-color: #fb5279;
+}
+
+/* testimonial two */
+.testimonial-two{
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+.testimonial-post {
+    overflow: hidden;
+    display: table;
+}
+.testimonial-post .post, .testimonial-post .text-content {
+    display: table-cell;
+}
+.testimonial-post .post {
+    height: 60px;
+    width: 60px;
+}
+.testimonial-post .post > img {
+    width: 100%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.testimonial-post .text-content {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.testimonial-post:hover a, .testimonial-post:focus a {
+    color: #f1c30f;
+}
+.testimonial-two .testimonial-para:before{
+    display: block;
+    font-size: 33px;
+    color: #535353;
+    margin-bottom: 15px;
+    content: "\e67f";
+    font-family: 'themify';
+}
+.testimonial-two .testimonial-item h5{
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.testimonial-two .testimonial-item .rating{
+    margin-top: 5px;
+}
+.testimonial-two .testimonial-item .rating i{
+    font-size: 15px;
+    color: #f1c30f;
+}
