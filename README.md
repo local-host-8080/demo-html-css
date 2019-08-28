@@ -34,7 +34,7 @@
 > 快来关注我吧~
 * [**我的主页**](https://space.bilibili.com/32683063)
 
-![AboutMe](img/AboutMe.png)
+![末末爱折腾の二维码](img/AboutMe.png)
 
 * 最后送大家一碗鸡汤
 
