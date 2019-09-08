@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>21-Clock</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="css/flipclock.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="clock"></div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/flipclock.js"></script>
+	<script type="text/javascript">
+		var clock = $('.clock').FlipClock({
+			clockFace: 'TwelveHourClock'
+		});
+	</script>
+</body>
+</html>
