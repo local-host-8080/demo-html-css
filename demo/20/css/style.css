@@ -18,7 +18,7 @@
 	border-radius: 8px;
 	opacity: 0;
 	position: relative;
-	top: 0;
+	top: 0px;
 	left: -43px;
 	animation: illusion 2.4s infinite ease-in-out;
 }
@@ -67,12 +67,9 @@
 		opacity: 0;
 	}
 }
+
 @keyframes domino-effect{
 	20%, 100%{
-		transition: rotate(135deg);
+		transform: rotate(135deg);
 	}
 }
-
-
-
-
