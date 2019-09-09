@@ -1,3 +1,95 @@
-body{
-	https://www.bilibili.com/video/av62819536
+.modal-box{
+	font-family: Arial;
+}
+.modal-box .show-modal{
+	color: white;
+	background: hotpink;
+	font-size: 18px;
+	font-weight: 599;
+	text-transform: uppercase;
+	padding: 17px 35px;
+	margin: 80px auto 0;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	display: block;
+	letter-spacing: 2px;
+}
+.modal-box .show-modal:hover{
+	color: white;
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+.modal-box .modal-dialog .modal-content{
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 150px;
+	width: 450px;
+}
+.modal-box .modal-dialog .modal-content .close{
+	color: #000;
+	font-size: 28px;
+	text-shadow: none;
+	position: absolute;
+	left: auto;
+	right: 7px;
+	top: 0;
+	z-index: 1;
+	transition: all 0.3s;
+}
+.modal-box .modal-dialog .modal-content 
+.close:hover{
+	color: #333;
+}
+.modal-box .modal-dialog .modal-content 
+.modal-body{
+	padding: 30px 0 0 !important;
+}
+.modal-box .modal-dialog .modal-content 
+.modal-body .icon{
+	color: #ff3c5f;
+	background: white;
+	font-size: 100px;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	margin: -100px auto 30px;
+	border-radius: 50%;
+	border: 10px solid #0075da;
+}
+.modal-box .modal-dialog .modal-content 
+.modal-body .title{
+	color: hotpink;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+.modal-box .modal-dialog .modal-content 
+.modal-body .description{
+	font-size: 18px;
+	line-height: 35px;
+	margin: 0 25px 40px;
+}
+.modal-box .modal-dialog .modal-content 
+.modal-body .modal-cancel,
+.modal-box .modal-dialog .modal-content 
+.modal-body .subscribe{
+	color: white;
+	background-color: #ff3c5f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 50%;
+	padding: 25px 18px;
+	border: none;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 -1px;
+	transition: all 0.3s;
+}
+.modal-box .modal-dialog .modal-content 
+.modal-body .modal-cancel{
+	color: #000;
+	background-color: gray;
 }
