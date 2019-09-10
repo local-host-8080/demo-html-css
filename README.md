@@ -1,4 +1,4 @@
-# <p align="center">学习专用网页设计[HTML+CSS]模板</p>
+# <p align="center">学习专用网页设计[HTML+CSS]模板👋</p>
 
 <p align="center">
 	<a href="https://github.com/local-host-8080/demo-html-css">
@@ -19,6 +19,7 @@
 *  `Demo` 收集自**互联网平台**，包括但不限于 *Youtube*、*bilibili* 等。
 * 本仓库收录的所有 `Demo` 均为本人手敲，部分代码和视频中的 **不一致**，请知悉。
 * 由于 `Demo` 过多，在线预览可能加载过慢，强烈建议你下载本项目到本地预览查看。
+* 不同浏览器的兼容性不同，本仓库所有 `Demo` 均在Chrome浏览器可以正常运行。
 
 ## 📌在线预览
 > 建议你使用Chrome浏览器访问~
@@ -39,7 +40,14 @@
 
 <p align="center"><img src="img/AboutMe.jpg" alt="[末末爱折腾の二维码]"></p>
 
-* 最后送大家一碗鸡汤
+* 如果你有发现内容错误、无法加载、加载失败等问题，欢迎在相应的视频评论区留言或者私信我。
+
+## Show Your Support
+* Give a ⭐️ if this project helped you!
+
+***
+
+* 最后送大家一碗鸡汤❤️
 
 > 当你的才华还撑不起你的野心的时候，你就应该静下心来学习；<br/>
 > 当你的能力还驾驭不了你的目标时，就应该沉下心来，历练；<br/>
