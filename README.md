@@ -28,22 +28,32 @@
 ## 📌源码下载
 * 需要源码的可以在 **`src`** 目录下自行下载对应的源码压缩包(.rar)。
 * 你也可以 **`Clone or download`** 整个项目到本地运行查看。
+* 安装了 `git` 的朋友直接在 `git` 中输入以下Shell语句下载:
+```Shell
+git clone git@github.com:local-host-8080/demo-html-css.git
+```
+* 小白直接点击这里下载整个项目--->[**下载**](https://github.com/local-host-8080/demo-html-css/archive/master.zip)
 
 ## 📌想一起打卡学习？
 > 点击下方的传送门一起学习吧~
 * [x] [【网页设计】基础控件](https://space.bilibili.com/32683063/channel/detail?cid=81226)
 * [x] [【网页设计】炫酷特效](https://space.bilibili.com/32683063/channel/detail?cid=84356)
 
+## 📌可能用到的类库
+* [x] [JQuery](https://jquery.com/)
+* [x] [BootStrap](https://getbootstrap.com/)
+* [x] [FontAwesome](https://fontawesome.com/icons?d=gallery)
+* [x] …………
+
 ## 📌联系我
 > 快来关注我吧~
 * [**我的主页**](https://space.bilibili.com/32683063)
 
 <p align="center"><img src="img/AboutMe.jpg" alt="[末末爱折腾の二维码]"></p>
-
 * 如果你有发现内容错误、无法加载、加载失败等问题，欢迎在相应的视频评论区留言或者私信我。
 
-## Show Your Support
-* Give a ⭐️ if this project helped you!
+## ❤️Show Your Support
+* **Give a ⭐️ if this project helped you!**
 
 ***
 
