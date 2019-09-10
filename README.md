@@ -17,9 +17,9 @@
 
 ## 📌简介说明：
 *  `Demo` 收集自**互联网平台**，包括但不限于 *Youtube*、*bilibili* 等。
-* 本仓库收录的所有 `Demo` 均为本人手敲，部分代码和视频中的 **不一致**，请知悉。
+* 本仓库收录的所有 `Demo` 均为本人手敲，所以部分代码和视频中的 **不一致**，请知悉。
 * 由于 `Demo` 过多，在线预览可能加载过慢，强烈建议你下载本项目到本地预览查看。
-* 不同浏览器的兼容性不同，本仓库所有 `Demo` 均在Chrome浏览器可以正常运行。
+* 不同浏览器的兼容性不同，本仓库所有 `Demo` 在Chrome浏览器测试正常运行。
 
 ## 📌在线预览
 > 建议你使用Chrome浏览器访问~
@@ -28,10 +28,6 @@
 ## 📌源码下载
 * 需要源码的可以在 **`src`** 目录下自行下载对应的源码压缩包(.rar)。
 * 你也可以 **`Clone or download`** 整个项目到本地运行查看。
-* 安装了 `git` 的朋友直接在 `git` 中输入以下Shell语句下载:
-```Shell
-git clone git@github.com:local-host-8080/demo-html-css.git
-```
 * 小白直接点击这里下载整个项目--->[**下载**](https://github.com/local-host-8080/demo-html-css/archive/master.zip)
 
 ## 📌想一起打卡学习？
@@ -40,16 +36,17 @@ git clone git@github.com:local-host-8080/demo-html-css.git
 * [x] [【网页设计】炫酷特效](https://space.bilibili.com/32683063/channel/detail?cid=84356)
 
 ## 📌可能用到的类库
-* [x] [JQuery](https://jquery.com/)
-* [x] [BootStrap](https://getbootstrap.com/)
-* [x] [FontAwesome](https://fontawesome.com/icons?d=gallery)
-* [x] …………
+* [x] [【JQuery】](https://jquery.com/)
+* [x] [【BootStrap】](https://getbootstrap.com/)
+* [x] [【FontAwesome】](https://fontawesome.com/icons?d=gallery)
+* [x]  …………
 
 ## 📌联系我
 > 快来关注我吧~
 * [**我的主页**](https://space.bilibili.com/32683063)
 
 <p align="center"><img src="img/AboutMe.jpg" alt="[末末爱折腾の二维码]"></p>
+
 * 如果你有发现内容错误、无法加载、加载失败等问题，欢迎在相应的视频评论区留言或者私信我。
 
 ## ❤️Show Your Support
