@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>27-RadialMenu</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="toggle" id="toggle" onclick="menu-expand()">
+		<i class="fa fa-plus" id="plus"></i>
+	</div>
+	<div class="menu" id="menu">
+		<a href="">
+			<i class="fa fa-microphone"></i>
+		</a>
+
+		<a href="">
+			<i class="fa fa-user"></i>
+		</a>
+
+		<a href="">
+			<i class="fa fa-video-camera"></i>
+		</a>
+
+		<a href="">
+			<i class="fa fa-envelope"></i>
+		</a>
+
+		<a href="">
+			<i class="fa fa-camera"></i>
+		</a>
+
+		<a href="">
+			<i class="fa fa-bell"></i>
+		</a>
+	</div>
+	<script type="text/javascript">
+		var i = 0;
+		function expand() {
+			if (i==0) {
+				//展开
+				document.getElementById("menu").style.transform="scale(3)";
+				document.getElementById("plus").style.transform="rotate(45deg)";
+				i=1;
+			} else {
+				//收缩
+				document.getElementById("menu").style.transform="scale(0)";
+				document.getElementById("plus").style.transform="rotate(0deg)";
+				i=0;
+			}
+		}
+	</script>
+</body>
+</html>
