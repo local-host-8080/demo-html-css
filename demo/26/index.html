@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>26-Odometer</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="css/odometer-theme-car.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div>
+		<div class="imgBx">
+			<img src="img/logo.png">
+		</div>
+		<div id="odometer" class="odometer">
+			000000
+		</div>
+		<h2>粉丝数</h2>
+	</div>
+	<script type="text/javascript" src="js/odometer.min.js"></script>
+	<script type="text/javascript">
+		setTimeout(function(){
+			odometer.innerHTML = 163457;
+		});
+	</script>
+</body>
+</html>
