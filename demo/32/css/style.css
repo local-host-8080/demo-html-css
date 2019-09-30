@@ -1,0 +1,27 @@
+body{
+	background: #242323;
+	font-family: tahoma;
+}
+#blog-landing{
+	margin-top: 81px;
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+
+}
+img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.white-panel{
+	position: absolute;
+	background: white;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	padding: 10px;
+}
+.white-panel:hover{
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	margin-top: -15px;
+	transition: all 0.3s ease-in-out;
+}

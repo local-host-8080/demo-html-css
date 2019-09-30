@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>响应式网格瀑布流布局</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container marketing">
+		<section id="blog-landing">
+			<article class="white-panel">
+				<img src="img/1.jpg">
+				<h1>
+					<a href="">Title 01</a>
+				</h1>
+				<p>Description 01</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/2.jpg">
+				<h1>
+					<a href="">Title 02</a>
+				</h1>
+				<p>Description 02</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/3.jpg">
+				<h1>
+					<a href="">Title 03</a>
+				</h1>
+				<p>Description 03</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/4.jpg">
+				<h1>
+					<a href="">Title 04</a>
+				</h1>
+				<p>Description 04</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/5.jpg">
+				<h1>
+					<a href="">Title 05</a>
+				</h1>
+				<p>Description 05</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/6.jpg">
+				<h1>
+					<a href="">Title 06</a>
+				</h1>
+				<p>Description 06</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/7.jpg">
+				<h1>
+					<a href="">Title 07</a>
+				</h1>
+				<p>Description 07</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/8.jpg">
+				<h1>
+					<a href="">Title 08</a>
+				</h1>
+				<p>Description 08</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/9.jpg">
+				<h1>
+					<a href="">Title 09</a>
+				</h1>
+				<p>Description 09</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/10.jpg">
+				<h1>
+					<a href="">Title 10</a>
+				</h1>
+				<p>Description 10</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/11.jpg">
+				<h1>
+					<a href="">Title 11</a>
+				</h1>
+				<p>Description 11</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/12.jpg">
+				<h1>
+					<a href="">Title 12</a>
+				</h1>
+				<p>Description 12</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/13.jpg">
+				<h1>
+					<a href="">Title 13</a>
+				</h1>
+				<p>Description 13</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/14.jpg">
+				<h1>
+					<a href="">Title 14</a>
+				</h1>
+				<p>Description 14</p>
+			</article>
+			<article class="white-panel">
+				<img src="img/15.jpg">
+				<h1>
+					<a href="">Title 15</a>
+				</h1>
+				<p>Description 15</p>
+			</article>
+		</section>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="js/pinterest_grid.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#blog-landing").pinterest_grid({
+				no_columns: 4,
+                padding_x: 10,
+                padding_y: 10,
+                margin_bottom: 50,
+                single_column_breakpoint: 700
+			});
+		});
+	</script>
+</body>
+</html>
