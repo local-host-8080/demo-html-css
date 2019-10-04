@@ -24,10 +24,17 @@
 > 建议你使用Chrome浏览器访问~
 * [点击这里快速预览 **所有模板**](https://local-host-8080.github.io/demo-html-css/index.html)
 
+<p align="center"><img src="img/start.gif" alt="在线预览界面"></p>
+
 ## 📌源码下载
 * 需要源码的可以在 **`src`** 目录下自行下载对应的源码压缩包(.rar)。
 * 你也可以 **`Clone or download`** 整个项目到本地运行查看。
 * 小白直接点击这里下载整个项目源码--->[**下载**](https://github.com/local-host-8080/demo-html-css/archive/master.zip)
+
+## 📌目录结构
+> 项目大致的目录结构，相信大家都懂~
+
+<p align="center"><img src="img/项目目录结构.png" alt="项目目录结构"></p>
 
 ## 📌想一起打卡学习？
 > 点击下方的传送门一起学习吧~
@@ -51,7 +58,7 @@
 ## ❤️Show Your Support
 * **Give a ⭐️ if this project helped you!**
 
-***
+<p align="center"><img src="img/end.gif" alt="The End"></p>
 
 * 最后送大家一碗鸡汤❤️
 
