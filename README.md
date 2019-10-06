@@ -25,7 +25,9 @@
 * [点击这里快速预览 **所有模板**](https://local-host-8080.github.io/demo-html-css/index.html)
 
 > 打开后效果如下图~
+
 <p align="center"><img src="img/start.png" alt="在线预览界面"></p>
+
 ## 📌源码下载
 * 需要源码的可以在 **`src`** 目录下自行下载对应的源码压缩包(.rar)。
 * 你也可以 **`Clone or download`** 整个项目到本地运行查看。
@@ -35,6 +37,7 @@
 > 项目大致的目录结构，相信大家都懂~
 
 <p align="center"><img src="img/项目目录结构.png" alt="项目目录结构"></p>
+
 ## 📌想一起打卡学习？
 > 点击下方的传送门一起学习吧~
 * [x] [【网页设计】基础控件](https://space.bilibili.com/32683063/channel/detail?cid=81226)
@@ -51,12 +54,14 @@
 * [**我的主页**](https://space.bilibili.com/32683063)
 
 <p align="center"><img src="img/AboutMe.jpg" alt="[末末爱折腾の二维码]"></p>
+
 * 仓库代码为UP纯手敲学习，所以难免有错误，如果你有发现内容错误、无法加载、加载失败等问题，欢迎在相应的视频评论区留言或者私信我。
 
 ## ❤️Show Your Support
 * **Give a ⭐️ if this project helped you!**
 
 <p align="center"><img src="img/end.gif" alt="The End"></p>
+
 * 最后送大家一碗鸡汤❤️
 
 > 当你的才华还撑不起你的野心的时候，你就应该静下心来学习；<br/>
