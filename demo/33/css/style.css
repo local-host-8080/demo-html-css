@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i);
+body{
+	font-family: tahoma;
+	/*background-image: url();*/
+
+}
+.team .item{
+	text-align: center;
+	position: relative;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.team .item:hover .info{
+	bottom: 50px;
+}
+.team .item:hover .team-img:after{
+	opacity: 1;
+	visibility: visible;
+}
+.team .item .team-img{
+	overflow: hidden;
+	border-radius: 10px;
+	position: relative;
+}
+.team .item .team-img:after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0,0.8);
+	background: linear-gradient(to top, #111, rgba(0,0,0,0.4));
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.4s;
+}
+.team .item .info{
+	position: absolute;
+	bottom: -500px;
+	left: 0;
+	padding: 0 15px;
+	width: 100%;
+	z-index: 4;
+	transition: all 0.4s;
+}
+.team .item .info h5{
+	font-size: 15px;
+	color: white;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+.team .item .info span{
+	font-size: 13px;
+	font-family: italic;
+	margin-bottom: 10px;
+	color: #ee3158;
+}
+.team .item .info p{
+	margin-bottom: 10px;
+	color: #a9a9a9;
+}
+.team .item .info .icon{
+	margin: 0 10px;
+	font-size: 12px;
+	color: #eee;
+	cursor: pointer;
+}
+.pink{
+	color: deeppink;
+	font-weight: bold;
+}
