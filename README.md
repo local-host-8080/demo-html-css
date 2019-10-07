@@ -57,10 +57,17 @@
 
 * 仓库代码为UP纯手敲学习，所以难免有错误，如果你有发现内容错误、无法加载、加载失败等问题，欢迎在相应的视频评论区留言或者私信我。
 
-## ❤️Show Your Support
-* **Give a ⭐️ if this project helped you!**
+## ❤️SHOW YOUR SUPPORT
+* **GIVE A ⭐️ IF THIS PROJECT HELPED YOU!**
 
 <p align="center"><img src="img/end.gif" alt="The End"></p>
+
+## 推广传播
+> 人们都希望被别人需要 却往往事与愿违。
+* 能够看到这里，我就已经很感激啦。不过如果你还想了解更多炫酷页面的话，那么你也可以看看我的其他仓库。
+* [x] [【震惊不足，但精彩有余の告白|表白页面】](https://github.com/local-host-8080/love-confession)
+
+***
 
 * 最后送大家一碗鸡汤❤️
 
