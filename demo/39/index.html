@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>39-Carousel</title>
+    <base target="_blank" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- Swiper -->
+	<section class="pc-banner">
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide swiper-slide-center none-effect">
+	            	<a href="#"><img src="images/01.jpg" ></a>
+	            </div>
+	            <div class="swiper-slide"><a href="#"><img src="images/02.jpg" ></a></div>
+	            <div class="swiper-slide"><a href="#"><img src="images/00.jpg" ></a></div>
+
+	        </div>
+	    </div>
+
+	    <div class="swiper-pagination"></div>
+		<div class="button">
+	    <div class="swiper-button-prev"></div>
+	    <div class="swiper-button-next"></div></div>
+	</section>
+	<div class="describe">轮播图</div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+		window.onload = function() {
+	    var swiper = new Swiper('.swiper-container',{
+			autoplay:3000,	//是否自动滚动
+			speed:1000,		//滚动速速
+			autoplayDisableOnInteraction : false,
+			loop:true,
+			centeredSlides : true,
+			slidesPerView:2,//当前选中
+	        pagination : '.swiper-pagination',
+			paginationClickable:true,
+			prevButton:'.swiper-button-prev',//左右切换
+	        nextButton:'.swiper-button-next',//左右切换
+			onInit:function(swiper){		 //当前选中 状态
+					swiper.slides[2].className="swiper-slide swiper-slide-active";//第一次打开不要动画
+				},
+	        	breakpoints: { 
+	                668: {
+	                    slidesPerView: 1,
+	                }
+	            }
+			});
+		}
+    </script>
+</body>
+</html>
