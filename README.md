@@ -26,7 +26,7 @@
 
 > 打开后效果如下图~
 
-<p align="center"><img src="img/start.png" alt="在线预览界面"></p>
+<p align="center"><img src="img/start.png" alt="在线预览界面 | 如果你的浏览器不能正常显示此图片是因为你没有梯子"></p>
 
 ## 📌源码下载
 * 需要源码的可以在 **`src`** 目录下自行下载对应的源码压缩包(.rar)。
@@ -53,18 +53,19 @@
 > 快来关注我吧~
 * [**我的主页**](https://space.bilibili.com/32683063)
 
-<p align="center"><img src="img/AboutMe.jpg" alt="[末末爱折腾の二维码]"></p>
+<p align="center"><img src="img/AboutMe.jpg" alt="[末末爱折腾の二维码] | 如果你的浏览器不能正常显示此图片是因为你没有梯子"></p>
 
 * 仓库代码为UP纯手敲学习，所以难免有错误，如果你有发现内容错误、无法加载、加载失败等问题，欢迎在相应的视频评论区留言或者私信我。
 
 ## ❤️SHOW YOUR SUPPORT
 * **GIVE A ⭐️ IF THIS PROJECT HELPED YOU!**
 
-<p align="center"><img src="img/end.gif" alt="The End"></p>
+<p align="center"><img src="img/end.gif" alt="The End | 如果你的浏览器不能正常显示此图片是因为你没有梯子"></p>
 
 ## 推广传播
-> 人们都希望被别人需要 却往往事与愿违。
+> 人们都希望被别人需要 | 却往往事与愿违。
 * 能够看到这里，我就已经很感激啦。不过如果你还想了解更多炫酷页面的话，那么你也可以看看我的其他仓库。
+
 * [x] [【震惊不足，但精彩有余の告白|表白页面】](https://github.com/local-host-8080/love-confession)
 
 ***
