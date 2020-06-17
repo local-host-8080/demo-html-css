@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>46-Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .button {
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            margin: 2px;
+            cursor: pointer;
+            background: #607d8b;
+            border: none;
+            color: white;
+        }
+        .textView {
+            width: 210px;
+            margin: 5px;
+            font-size: 25px;
+            padding: 5px;
+            border: none;
+        }
+        .main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        html {
+            background: linear-gradient(to right, #ff0052, #0072ff);
+            height: 100%;
+        }
+    </style>
+    <script>
+        function insert(num) {
+            // TODO 插入
+            document.form.textView.value = document.form.textView.value + num;
+        }
+
+        function equal() {
+            // TODO 计算结果，并且结果保留两位小数
+            let exp = document.form.textView.value;
+            if (exp) {
+                 let eval1 = eval(document.form.textView.value);
+                // eval() 执行括号内的语句 , 记录结果
+                let number = eval1.toString().indexOf(".");
+                if (number!==-1){
+                    // 如果是小数，保留两位小数
+                    eval1=eval1.toString().substring(0,number+3);
+                    // 截取
+                    document.form.textView.value=eval1;
+                }else {
+                    // 如果不是小数，直接赋值
+                    document.form.textView.value=eval1;
+                }
+            }
+        }
+
+        function Mclean() {
+            // TODO 清理输入框的文字
+            document.form.textView.value = null;
+        }
+
+        function back() {
+            // TODO 删除文本框的一个字符
+            let exp = document.form.textView.value;
+            document.form.textView.value = exp.substring(0, exp.length - 1);
+            // 截取字符串
+        }
+    </script>
+</head>
+<body>
+<div class="main">
+    <form name="form">
+        <input class="textView" name="textView">
+    </form>
+    <table>
+        <tr>
+            <td><input type="button" class="button" value="C" onclick="Mclean()"></td>
+            <td><input type="button" class="button" value="<" onclick="back()"></td>
+            <td><input type="button" class="button" value="/" onclick="insert('/')"></td>
+            <td><input type="button" class="button" value="x" onclick="insert('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="button" value="7" onclick="insert(7)"></td>
+            <td><input type="button" class="button" value="8" onclick="insert(8)"></td>
+            <td><input type="button" class="button" value="9" onclick="insert(9)"></td>
+            <td><input type="button" class="button" value="-" onclick="insert('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="button" value="4" onclick="insert(4)"></td>
+            <td><input type="button" class="button" value="5" onclick="insert(5)"></td>
+            <td><input type="button" class="button" value="6" onclick="insert(6)"></td>
+            <td><input type="button" class="button" value="+" onclick="insert('+')"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" class="button" value="1" onclick="insert(1)"></td>
+            <td><input type="button" class="button" value="2" onclick="insert(2)"></td>
+            <td><input type="button" class="button" value="3" onclick="insert(3)"></td>
+            <td rowspan="2"><input style="height: 107px" type="button" class="button" value="=" onclick="equal()"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input style="width: 107px" type="button" class="button" value="0" onclick="insert(0)"></td>
+            <td><input type="button" class="button" value="." onclick="insert('.')"></td>
+        </tr>
+    </table>
+</div>
+<div>
+	<h3>
+	此代码由 <a href="https://space.bilibili.com/52704344">B站UID:52704344</a> 提供，点我访问<a href="https://github.com/1123Javayanglei/javase_26/blob/64be46e850d2328ba06bc51fa946f36151c635f2/src/com/zhiyou100/javaweb/csslearn/hoework/MyCalculator.html">源地址</a>。
+	</h3>
+</div>
+</body>
+</html>
